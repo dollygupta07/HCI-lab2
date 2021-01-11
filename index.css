@@ -1,0 +1,126 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /*margin: auto;*/
+/*  max-width: 80rem; */
+/*  padding: 5.5rem;*/
+  background-color: #3AAFA9;
+}
+a{
+  color:white;
+  
+}
+a:hover{
+  color:black;
+
+}
+div{
+  position:absolute;
+  top:30;
+}
+h1{
+  font-size: 60px;
+  padding: 2rem;
+/*  color: #EDF5E1;
+*/  color: #17252A;
+
+}
+
+h2{
+  font-size: 40px;
+  padding: 5px;
+  color: black;
+}
+
+h3{
+  color: black;
+  font-size: 25px;
+  padding: 5px;
+}
+
+h4{
+  font-size: 15px;
+  padding: 5px;
+
+}
+section{
+  padding: 3rem;
+  background-color: #DEF2F1;
+  margin: auto;
+/*  background-color: #379683;
+*/
+  max-width: 50rem;
+  margin: auto;
+  display: block;
+  
+}
+
+li{
+  padding: 2px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+
+button {
+  color:white;
+  
+}
+
+
+
+
+.base-timer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
